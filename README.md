@@ -278,6 +278,46 @@ This will run all tests including:
 2. Application queries Table Storage for all entries with `PartitionKey="files"`
 3. Returns JSON list with all uploaded files and upload timestamps
 
+## Features & Screenshots
+
+### 1. CloudVault Dashboard
+The main interface provides a user-friendly experience for managing file backups:
+![CloudVault Dashboard](screenshots/01-dashboard.png)
+- **Upload Files Section**: Drag-and-drop or click to upload supported file types
+- **Backup Statistics**: Real-time display of active files, total versions, backup size, and duplicates
+- **Backup Frequency Recommendations**: Weekly backup guidance for optimal data protection
+
+### 2. File Upload Dialog
+Seamless file selection interface integrated with your system:
+![File Upload Dialog](screenshots/03-upload-dialog.png)
+- Browse local files from your system
+- Support for multiple file types (TXT, PDF, PNG, JPG, DOCX, XLSX, GIF)
+- Maximum file size: 500MB
+
+### 3. Uploaded Files History
+View your files after successful upload with complete history:
+![Extended File History](screenshots/04-file-history-extended.png)
+- Comprehensive list of all backup versions
+- Quick access to version details
+- Easy file recovery and management options
+- Track all uploaded files with timestamps
+
+### 4. Files & Version History
+Track all uploaded files with version management capabilities:
+![Files & Version History](screenshots/02-file-history.png)
+- View all uploaded files with metadata
+- Access multiple versions of each file
+- Check file sizes and last modified timestamps
+- Restore previous versions as needed
+
+### 5. Azure Blob Storage Backend
+Files are securely stored in Azure Cloud:
+![Azure Blob Storage](screenshots/05-azure-storage.png)
+- Direct integration with Microsoft Azure Storage
+- All uploaded files visible in the Azure Portal
+- Encrypted storage with access control
+- Reliable and scalable infrastructure
+
 ## Azure Storage Details
 
 ### Blob Storage Configuration
